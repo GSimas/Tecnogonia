@@ -12,8 +12,8 @@ const content = {
     header: 'Cabeçalho principal',
     preferences: 'Preferências de leitura',
     index: 'Índice do percurso',
-    journey: 'Percurso de 10 minutos',
-    eyebrow: 'Um ensaio audiovisual de Gustavo Simas',
+    journey: 'Tecnogonia: criando tecnologias que nos criam',
+    eyebrow: 'Uma obra sobre Ciência, Tecnologia e Sociedade',
     title: 'Tecnogonia',
     subtitle: 'criando tecnologias que nos criam',
     hero: 'Os instrumentos que criamos para servir nossas necessidades moldam silenciosamente nossos modos de vida, nossos afetos, nossas subjetividades, nossa própria noção de humanidade.',
@@ -42,7 +42,7 @@ const content = {
     consentResultYes: 'Quem controla a voz, a memória, os lucros e o direito de desligá-la?',
     consentResultNo: 'A ausência também pode ser um direito. Como torná-lo tecnicamente vinculante?',
     choose: 'Escolha os princípios que devem orientar uma tecnologia convivial',
-    chosen: 'Seu horizonte',
+    chosen: 'Seu horizonte sociotécnico',
     buy: 'Comprar o livro',
     buyNote: 'Continue a travessia nas 196 páginas de Tecnogonia.',
     publisher: 'Disponível pela Caravana Grupo Editorial',
@@ -50,9 +50,8 @@ const content = {
     finalEyebrow: 'Uma escolha, não um destino',
     finalTitle: 'Que tecnologias queremos cultivar — e o que queremos que elas cultivem em nós?',
     finalText: 'O futuro digno não nasce da rendição à máquina nem da rejeição reacionária à técnica. Ele depende de princípios, políticas e práticas capazes de ampliar a vida.',
-    textCredit: 'Texto e conceito',
     developed: 'Desenvolvido por Gustavo Simas',
-    rights: 'Tecnogonia · Ouro Preto · 2025',
+    rights: 'Tecnogonia · Ouro Preto · 2026',
     editorialTranslation: 'Tradução editorial para revisão do autor',
   },
   en: {
@@ -61,8 +60,8 @@ const content = {
     header: 'Main header',
     preferences: 'Reading preferences',
     index: 'Journey index',
-    journey: 'A 10-minute journey',
-    eyebrow: 'An audiovisual essay by Gustavo Simas',
+    journey: 'Technogony: creating technologies that create us',
+    eyebrow: 'A work on Science, Technology and Society',
     title: 'Technogony',
     subtitle: 'creating technologies that create us',
     hero: 'The instruments we create to serve our needs quietly shape our ways of life, our affections, our subjectivities, and our very notion of humanity.',
@@ -91,7 +90,7 @@ const content = {
     consentResultYes: 'Who controls the voice, the memory, the profits, and the right to switch it off?',
     consentResultNo: 'Absence may also be a right. How can it become technically binding?',
     choose: 'Choose the principles that should guide convivial technology',
-    chosen: 'Your horizon',
+    chosen: 'Your sociotechnical horizon',
     buy: 'Buy the book',
     buyNote: 'Continue the journey through the 196 pages of Technogony.',
     publisher: 'Available from Caravana Grupo Editorial',
@@ -99,9 +98,8 @@ const content = {
     finalEyebrow: 'A choice, not a destiny',
     finalTitle: 'What technologies do we want to cultivate — and what do we want them to cultivate in us?',
     finalText: 'A dignified future is born neither from surrender to the machine nor from reactionary rejection of technology. It depends on principles, policies, and practices capable of expanding life.',
-    textCredit: 'Text and concept',
     developed: 'Developed by Gustavo Simas',
-    rights: 'Technogony · Ouro Preto · 2025',
+    rights: 'Technogony · Ouro Preto · 2026',
     editorialTranslation: 'Editorial translation for author review',
   },
 };
@@ -111,7 +109,7 @@ const movements = {
     { id: 'genealogia', n: '01', short: 'Genealogia', kicker: 'Ferramenta · linguagem · rito', title: 'Antes de transformar o mundo, a técnica transforma quem a utiliza.', lead: 'Do fogo à escrita, da memória externalizada aos sistemas digitais: nenhuma ferramenta permanece apenas do lado de fora.', quote: 'Co-evoluímos com nossas tecnologias: as ferramentas que criamos acabam por nos criar, num ciclo recursivo.', tags: ['corpo', 'memória', 'linguagem', 'simpoiese'] },
     { id: 'megamáquina', n: '02', short: 'Megamáquina', kicker: 'Tecnopólio · poder · plataformas', title: 'A ferramenta torna-se ambiente. O ambiente torna-se governo.', lead: 'Quando infraestruturas técnicas passam a organizar trabalho, atenção, verdade e pertencimento, deixamos de apenas usá-las: passamos a habitá-las.', quote: 'As tecnologias não são neutras, elas possuem agência e constituem um eixo estruturante da sociedade.', tags: ['tecnocracia', 'tecnofeudalismo', 'bolhas de filtro', 'convivialidade'] },
     { id: 'cognificação', n: '03', short: 'Cognificação', kicker: 'Inteligência em tudo', title: 'Como a eletricidade, a inteligência torna-se uma camada invisível do mundo.', lead: 'Objetos, cidades e processos passam a perceber, adaptar-se, decidir e conversar entre si. Conveniência e vigilância crescem na mesma rede.', quote: 'Cognificação massiva: tornar inteligentes objetos, processos, organismos, sistemas puramente mecânicos.', tags: ['dados', 'sensores', 'nuvem', 'autonomia'] },
-    { id: 'promptografia', n: '04', short: 'Promptografia', kicker: 'Da luz ao modelo', title: 'A imagem já não precisa ter estado diante de uma câmera.', lead: 'A fotografia registra a luz de um referente. A promptografia sintetiza uma possibilidade a partir de texto, dados e padrões aprendidos.', quote: 'Enquanto a fotografia é “escrita com luz”, a promptografia seria a “escrita com prompts”.', tags: ['pós-indicial', 'autoria', 'aura', 'slop'] },
+    { id: 'promptografia', n: '04', short: 'Promptografia', kicker: 'Da luz ao modelo', title: 'A imagem já não precisa ter estado diante de uma câmera.', lead: 'A fotografia registra a luz de um referente. A promptografia sintetiza uma possibilidade a partir de texto, dados e padrões aprendidos.', quote: "Enquanto a fotografia é 'escrita com luz', a promptografia seria a 'escrita com prompts'.", tags: ['pós-indicial', 'autoria', 'aura', 'slop'] },
     { id: 'tecnonecromancia', n: '05', short: 'Tecnonecromancia', kicker: 'Memória · presença · consentimento', title: 'Arquivar o passado é diferente de fazê-lo responder.', lead: 'Modelos de linguagem, clonagem de voz e imagens sintéticas deslocam a memória da preservação estática para a simulação dinâmica.', quote: 'É uma transição da preservação estática para a simulação dinâmica que altera basalmente a relação entre vivos, mortos e memória.', tags: ['luto', 'identidade', 'simulacro', 'direitos póstumos'] },
     { id: 'ídolo', n: '06', short: 'Ídolo estocástico', kicker: 'Fluência · projeção · dependência', title: 'A máquina fala como alguém. Isso não significa que exista alguém ali.', lead: 'A linguagem fluente convida à projeção de intenção, afeto e autoridade. Sob a superfície, padrões probabilísticos refletem nossos desejos e os vieses de seus dados.', quote: 'A superfície polida deste espelho digital nubla a natureza fundamentalmente probabilística destas tecnologias.', tags: ['antropomorfismo', 'dataísmo', 'vieses', 'pertencimento'] },
     { id: 'convivialidade', n: '07', short: 'Convivialidade', kicker: 'Diferenciação · escolha · cuidado', title: 'Co-evolução é inevitável. A direção, não.', lead: 'Tecnologias podem ser feudos ou artefatos conviviais. O futuro depende dos valores inscritos em projetos, orçamentos, instituições e hábitos.', quote: 'Tecnologia é escolha, não destino: cada artefato traz chances de inclusão ou de controle.', tags: ['pluralismo', 'justiça', 'suficiência', 'descanso cognitivo'] },
@@ -120,10 +118,29 @@ const movements = {
     { id: 'genealogia', n: '01', short: 'Genealogy', kicker: 'Tool · language · ritual', title: 'Before transforming the world, technology transforms those who use it.', lead: 'From fire to writing, from externalised memory to digital systems: no tool remains entirely outside us.', quote: 'We co-evolve with our technologies: the tools we create end up creating us, in a recursive cycle.', tags: ['body', 'memory', 'language', 'sympoiesis'] },
     { id: 'megamáquina', n: '02', short: 'Megamachine', kicker: 'Technopoly · power · platforms', title: 'The tool becomes an environment. The environment becomes government.', lead: 'When technical infrastructures organise work, attention, truth, and belonging, we no longer merely use them: we begin to inhabit them.', quote: 'Technologies are not neutral. They have agency and constitute a structuring axis of society.', tags: ['technocracy', 'technofeudalism', 'filter bubbles', 'conviviality'] },
     { id: 'cognificação', n: '03', short: 'Cognification', kicker: 'Intelligence in everything', title: 'Like electricity, intelligence becomes an invisible layer of the world.', lead: 'Objects, cities, and processes begin to perceive, adapt, decide, and talk to one another. Convenience and surveillance grow through the same network.', quote: 'Mass cognification: making objects, processes, organisms, and purely mechanical systems intelligent.', tags: ['data', 'sensors', 'cloud', 'autonomy'] },
-    { id: 'promptografia', n: '04', short: 'Promptography', kicker: 'From light to model', title: 'An image no longer needs to have stood before a camera.', lead: 'Photography records light from a referent. Promptography synthesises a possibility from text, data, and learned patterns.', quote: 'While photography is “writing with light”, promptography would be “writing with prompts”.', tags: ['post-indexical', 'authorship', 'aura', 'slop'] },
+    { id: 'promptografia', n: '04', short: 'Promptography', kicker: 'From light to model', title: 'An image no longer needs to have stood before a camera.', lead: 'Photography records light from a referent. Promptography synthesises a possibility from text, data, and learned patterns.', quote: "While photography is 'writing with light', promptography would be 'writing with prompts'.", tags: ['post-indexical', 'authorship', 'aura', 'slop'] },
     { id: 'tecnonecromancia', n: '05', short: 'Technonecromancy', kicker: 'Memory · presence · consent', title: 'Archiving the past is different from making it answer.', lead: 'Language models, voice cloning, and synthetic images shift memory from static preservation to dynamic simulation.', quote: 'It is a transition from static preservation to dynamic simulation that profoundly changes the relationship between the living, the dead, and memory.', tags: ['grief', 'identity', 'simulacrum', 'posthumous rights'] },
     { id: 'ídolo', n: '06', short: 'Stochastic idol', kicker: 'Fluency · projection · dependency', title: 'The machine speaks like someone. That does not mean someone is there.', lead: 'Fluent language invites projections of intention, affection, and authority. Beneath the surface, probabilistic patterns reflect our desires and the biases in their data.', quote: 'The polished surface of this digital mirror obscures the fundamentally probabilistic nature of these technologies.', tags: ['anthropomorphism', 'dataism', 'bias', 'belonging'] },
     { id: 'convivialidade', n: '07', short: 'Conviviality', kicker: 'Difference · choice · care', title: 'Co-evolution is inevitable. Its direction is not.', lead: 'Technologies may become fiefdoms or convivial tools. The future depends on values inscribed in projects, budgets, institutions, and habits.', quote: 'Technology is a choice, not a destiny: every artefact carries possibilities of inclusion or control.', tags: ['pluralism', 'justice', 'sufficiency', 'cognitive rest'] },
+  ],
+};
+
+const cognificationItems = {
+  pt: [
+    { n: '01', subject: 'A Casa', action: 'escuta e registra a intimidade', desc: 'Assistentes e microfones ambientais captam a vida privada e convertem rotinas em fluxo de dados contínuo.' },
+    { n: '02', subject: 'A Cidade', action: 'rastreia e prevê comportamentos', desc: 'Câmeras, radares e sensores inteligentes modulam fluxos urbanos e antecipam deslocamentos coletivos.' },
+    { n: '03', subject: 'O Veículo', action: 'decide trajetos e calcula riscos', desc: 'Sistemas autônomos e telemática arbitram decisões de tráfego, segurança e atenção dos condutores.' },
+    { n: '04', subject: 'O Corpo', action: 'quantifica biometria e vigília', desc: 'Sensores vestíveis monitoram pulso, passos e sono, transformando sinais biológicos em métricas computáveis.' },
+    { n: '05', subject: 'O Trabalho', action: 'mapeia produtividade e atenção', desc: 'Plataformas e telemetria gerenciam ritmos laborais, cadência de cliques e engajamento em tempo real.' },
+    { n: '06', subject: 'A Nuvem', action: 'aprende padrões e retroalimenta escolhas', desc: 'Modelos estatísticos em escala agregam dados de bilhões de interações para orientar decisões futuras.' },
+  ],
+  en: [
+    { n: '01', subject: 'The Home', action: 'listens and captures private life', desc: 'Ambient assistants and microphones convert household intimacy into continuous telemetry streams.' },
+    { n: '02', subject: 'The City', action: 'tracks and predicts behaviors', desc: 'Smart cameras, sensors, and signals modulate urban transit and anticipate collective movement.' },
+    { n: '03', subject: 'The Vehicle', action: 'decides routes and calculates risk', desc: 'Autonomous telematics and navigation engines arbitrate traffic safety and driver attention.' },
+    { n: '04', subject: 'The Body', action: 'quantifies biometrics and rest', desc: 'Wearable sensors monitor pulse, motion, and sleep, turning biological signals into computable metrics.' },
+    { n: '05', subject: 'The Workplace', action: 'maps productivity and attention', desc: 'Platform telemetry benchmarks labor rhythm, keystrokes, and cognitive engagement in real time.' },
+    { n: '06', subject: 'The Cloud', action: 'learns patterns and steers choices', desc: 'Large-scale statistical models aggregate billions of interactions to guide and nudge future decisions.' },
   ],
 };
 
@@ -146,10 +163,184 @@ const sparks = {
   ],
 };
 
-const principles = {
-  pt: ['Autonomia', 'Pluralidade', 'Reparabilidade', 'Cuidado', 'Transparência', 'Suficiência'],
-  en: ['Autonomy', 'Plurality', 'Repairability', 'Care', 'Transparency', 'Sufficiency'],
-};
+const principlesData = [
+  { id: 'autonomia', pt: 'Autonomia', en: 'Autonomy' },
+  { id: 'pluralidade', pt: 'Pluralidade', en: 'Plurality' },
+  { id: 'reparabilidade', pt: 'Reparabilidade', en: 'Repairability' },
+  { id: 'cuidado', pt: 'Cuidado', en: 'Care' },
+  { id: 'transparencia', pt: 'Transparência', en: 'Transparency' },
+  { id: 'suficiencia', pt: 'Suficiência', en: 'Sufficiency' },
+];
+
+function getConvivialOutcome(selectedIds: string[], lang: Lang): { title: string; desc: string } {
+  const count = selectedIds.length;
+  const has = (id: string) => selectedIds.includes(id);
+
+  if (count === 0) {
+    return {
+      title: lang === 'pt' ? 'Constelação em aberto' : 'Open constellation',
+      desc:
+        lang === 'pt'
+          ? 'Selecione um ou mais princípios acima para traçar o diagnóstico do seu horizonte sociotécnico.'
+          : 'Select one or more principles above to trace the diagnosis of your sociotechnical horizon.',
+    };
+  }
+
+  if (count === 6) {
+    return {
+      title: lang === 'pt' ? 'Ecossistema Convivial Pleno' : 'Full Convivial Ecosystem',
+      desc:
+        lang === 'pt'
+          ? 'Uma reconfiguração radical da técnica: ferramentas abertas ao conserto, subordinadas ao cuidado humano, auditáveis em seus códigos e limitadas em sua voracidade temporal e ambiental.'
+          : 'A radical reconfiguration of technology: tools open to repair, subordinate to human care, auditable in code, and bounded against predatory temporal and environmental extraction.',
+    };
+  }
+
+  if (count === 1) {
+    if (has('autonomia')) {
+      return {
+        title: lang === 'pt' ? 'Vetor da Autonomia Radical' : 'Vector of Radical Autonomy',
+        desc:
+          lang === 'pt'
+            ? 'Prioriza a capacidade de indivíduos e comunidades recusarem dependências compulsórias e moldarem seus próprios instrumentos técnicos.'
+            : 'Prioritises the ability of individuals and communities to refuse compulsory dependencies and craft their own technical tools.',
+      };
+    }
+    if (has('pluralidade')) {
+      return {
+        title: lang === 'pt' ? 'Vetor da Pluralidade Epistêmica' : 'Vector of Epistemic Plurality',
+        desc:
+          lang === 'pt'
+            ? 'Combate a monocultura digital, abrindo espaço para cosmologias diversas, tecnologias locais e formas não hegemônicas de conhecimento.'
+            : 'Fights digital monoculture, creating room for diverse cosmologies, local technologies, and non-hegemonic ways of knowing.',
+      };
+    }
+    if (has('reparabilidade')) {
+      return {
+        title: lang === 'pt' ? 'Vetor da Materialidade Durável' : 'Vector of Durable Materiality',
+        desc:
+          lang === 'pt'
+            ? 'Enfrenta a obsolescência programada pelo direito ao conserto, valorizando a longevidade dos objetos e o saber manual comunitário.'
+            : 'Confronts planned obsolescence through the right to repair, valuing object longevity and community technical know-how.',
+      };
+    }
+    if (has('cuidado')) {
+      return {
+        title: lang === 'pt' ? 'Vetor da Ética do Cuidado' : 'Vector of the Ethics of Care',
+        desc:
+          lang === 'pt'
+            ? 'Coloca o bem-estar relacional, a vulnerabilidade e os laços afetivos acima de qualquer imperativo de eficiência ou automação.'
+            : 'Places relational well-being, vulnerability, and affective bonds above any imperative of efficiency or automation.',
+      };
+    }
+    if (has('transparencia')) {
+      return {
+        title: lang === 'pt' ? 'Vetor da Auditabilidade Pública' : 'Vector of Public Auditability',
+        desc:
+          lang === 'pt'
+            ? 'Exige caixas-pretas abertas, código inspecionável e explicabilidade algorítmica como pré-requisitos para a legitimidade pública.'
+            : 'Demands open black-boxes, inspectable code, and algorithmic explainability as prerequisites for public legitimacy.',
+      };
+    }
+    if (has('suficiencia')) {
+      return {
+        title: lang === 'pt' ? 'Vetor da Sobriedade e Descanso' : 'Vector of Sobriety and Rest',
+        desc:
+          lang === 'pt'
+            ? 'Estabelece limites deliberados ao estímulo contínuo, defendendo o descanso cognitivo, o silêncio e o desaceleramento ecológico.'
+            : 'Sets deliberate limits on continuous stimulation, defending cognitive rest, silence, and ecological slowdown.',
+      };
+    }
+  }
+
+  if (has('autonomia') && has('reparabilidade') && !has('cuidado') && !has('suficiencia')) {
+    return {
+      title: lang === 'pt' ? 'Soberania Técnica e Material' : 'Technical and Material Sovereignty',
+      desc:
+        lang === 'pt'
+          ? 'Combina a liberdade de uso com a capacidade física de conserto, libertando o usuário dos cercamentos proprietários de hardware e software.'
+          : 'Combines freedom of use with physical repair capability, freeing users from proprietary hardware and software enclosures.',
+    };
+  }
+
+  if (has('cuidado') && has('suficiencia')) {
+    return {
+      title: lang === 'pt' ? 'Ecologia Relacional e Descanso' : 'Relational Ecology and Rest',
+      desc:
+        lang === 'pt'
+          ? 'Um modelo desenhado para frear a exaustão psíquica e ambiental, cultivando vínculos humanos protegidos da mercantilização da atenção.'
+          : 'A model designed to curb psychic and environmental burnout, cultivating human bonds shielded from attention commodification.',
+    };
+  }
+
+  if (has('pluralidade') && has('transparencia')) {
+    return {
+      title: lang === 'pt' ? 'Esfera Pública Aberta e Democrática' : 'Open and Democratic Public Sphere',
+      desc:
+        lang === 'pt'
+          ? 'Algoritmos e infraestruturas auditáveis a serviço da diversidade cultural, desmontando monopólios de moderação e regimes de verdade.'
+          : 'Auditable algorithms and infrastructures in service of cultural diversity, dismantling moderation monopolies and truth regimes.',
+    };
+  }
+
+  if (has('autonomia') && has('cuidado')) {
+    return {
+      title: lang === 'pt' ? 'Humanismo Convivial Não-Extrativo' : 'Non-Extractive Convivial Humanism',
+      desc:
+        lang === 'pt'
+          ? 'Garante que a mediação técnica fortaleça a agência humana sem instrumentalizar as relações afetivas nem substituir o encontro presencial.'
+          : 'Ensures technical mediation strengthens human agency without instrumentalising affective bonds or displacing presence.',
+    };
+  }
+
+  if (has('reparabilidade') && has('suficiencia')) {
+    return {
+      title: lang === 'pt' ? 'Economia Circular e Baixo Impacto' : 'Circular Economy and Low Impact',
+      desc:
+        lang === 'pt'
+          ? 'Foco em artefatos modulares, de longa duração e consumo mínimo de energia, contra a compulsão de atualização perpétua.'
+          : 'Focus on modular, long-lasting artefacts with minimal energy consumption, countering the compulsion of perpetual upgrades.',
+    };
+  }
+
+  if (has('autonomia') && has('transparencia') && has('pluralidade')) {
+    return {
+      title: lang === 'pt' ? 'Comuns Digitais Federados' : 'Federated Digital Commons',
+      desc:
+        lang === 'pt'
+          ? 'Redes descentralizadas e transparentes que devolvem o controle das regras sociais e dos dados para as comunidades que as habitam.'
+          : 'Decentralised, transparent networks returning governance and data ownership to the communities that inhabit them.',
+    };
+  }
+
+  if (has('cuidado') && has('reparabilidade') && has('autonomia')) {
+    return {
+      title: lang === 'pt' ? 'Infraestrutura Comunitária Resiliente' : 'Resilient Community Infrastructure',
+      desc:
+        lang === 'pt'
+          ? 'Tecnologias mantidas e consertadas localmente, orientadas para a sustentabilidade da vida e a interdependência solidária.'
+          : 'Locally maintained and repaired technologies, oriented toward life sustainability and mutual interdependence.',
+    };
+  }
+
+  if (count >= 4) {
+    return {
+      title: lang === 'pt' ? 'Horizonte Sociotécnico Integrado' : 'Integrated Sociotechnical Horizon',
+      desc:
+        lang === 'pt'
+          ? `Uma aliança potente entre ${count} princípios fundamentais, equilibrando agência humana, justiça ecológica e emancipação contra monopólios técnicos.`
+          : `A powerful alliance among ${count} fundamental principles, balancing human agency, ecological justice, and emancipation from technical monopolies.`,
+    };
+  }
+
+  return {
+    title: lang === 'pt' ? 'Síntese Convivial Personalizada' : 'Custom Convivial Synthesis',
+    desc:
+      lang === 'pt'
+        ? `Uma configuração direcionada a equilibrar os princípios de ${selectedIds.map((id) => principlesData.find((p) => p.id === id)?.pt).join(', ')}, redefinindo a técnica como suporte à emancipação.`
+        : `A targeted setup balancing the principles of ${selectedIds.map((id) => principlesData.find((p) => p.id === id)?.en).join(', ')}, redefining technique as a vehicle for emancipation.`,
+  };
+}
 
 export default function Home() {
   const [lang, setLang] = useState<Lang>('pt');
@@ -162,11 +353,12 @@ export default function Home() {
   const [promptMix, setPromptMix] = useState(50);
   const [systemOpen, setSystemOpen] = useState(false);
   const [consent, setConsent] = useState<'yes' | 'no' | null>(null);
-  const [selected, setSelected] = useState<string[]>([]);
+  const [selected, setSelected] = useState<string[]>(['autonomia', 'cuidado']);
   const [sparkIndex, setSparkIndex] = useState(0);
   const scales = [0.9, 1, 1.125, 1.25];
   const t = content[lang];
   const chapters = movements[lang];
+  const cogItems = cognificationItems[lang];
 
   useEffect(() => {
     const storedLang = localStorage.getItem('tecnogonia-lang') as Lang | null;
@@ -199,11 +391,17 @@ export default function Home() {
       { rootMargin: '-35% 0px -55% 0px' },
     );
     document.querySelectorAll('[data-movement]').forEach((section) => observer.observe(section));
-    return () => { window.removeEventListener('scroll', onScroll); observer.disconnect(); };
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      observer.disconnect();
+    };
   }, []);
 
-  const selectedPhrase = useMemo(() => selected.join(' · '), [selected]);
-  const togglePrinciple = (value: string) => setSelected((current) => current.includes(value) ? current.filter((item) => item !== value) : [...current, value]);
+  const togglePrinciple = (id: string) => {
+    setSelected((current) => (current.includes(id) ? current.filter((item) => item !== id) : [...current, id]));
+  };
+
+  const outcome = useMemo(() => getConvivialOutcome(selected, lang), [selected, lang]);
 
   return (
     <main id="conteudo" className="site-shell">
@@ -228,7 +426,12 @@ export default function Home() {
       </header>
 
       <nav className="journey-nav" aria-label={t.index}>
-        {chapters.map((chapter) => <a key={chapter.id} className={active === chapter.id ? 'active' : ''} href={`#${chapter.id}`}><span>{chapter.n}</span><b>{chapter.short}</b></a>)}
+        {chapters.map((chapter) => (
+          <a key={chapter.id} className={active === chapter.id ? 'active' : ''} href={`#${chapter.id}`}>
+            <span>{chapter.n}</span>
+            <b>{chapter.short}</b>
+          </a>
+        ))}
       </nav>
 
       <section id="top" className="hero" aria-labelledby="hero-title">
@@ -264,8 +467,18 @@ export default function Home() {
         <MovementHeader chapter={chapters[0]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className="timeline" aria-label={lang === 'pt' ? 'Externalizações técnicas ao longo do tempo' : 'Technical externalisations through time'}>
           {[
-            ['fogo', 'força', 'fire', 'force'], ['linguagem', 'pensamento', 'language', 'thought'], ['escrita', 'memória', 'writing', 'memory'], ['rede', 'identidade', 'network', 'identity'], ['IA', 'decisão', 'AI', 'decision'],
-          ].map((item, index) => <div key={item[0]}><span>{String(index + 1).padStart(2, '0')}</span><b>{lang === 'pt' ? item[0] : item[2]}</b><small>{lang === 'pt' ? item[1] : item[3]}</small></div>)}
+            ['fogo', 'força', 'fire', 'force'],
+            ['linguagem', 'pensamento', 'language', 'thought'],
+            ['escrita', 'memória', 'writing', 'memory'],
+            ['rede', 'identidade', 'network', 'identity'],
+            ['IA', 'decisão', 'AI', 'decision'],
+          ].map((item, index) => (
+            <div key={item[0]}>
+              <span>{String(index + 1).padStart(2, '0')}</span>
+              <b>{lang === 'pt' ? item[0] : item[2]}</b>
+              <small>{lang === 'pt' ? item[1] : item[3]}</small>
+            </div>
+          ))}
         </div>
         <Spark question={sparks[lang][0]} label={t.sparkLabel} />
       </section>
@@ -274,36 +487,81 @@ export default function Home() {
         <MovementHeader chapter={chapters[1]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className="machine-stage" aria-hidden="true">
           <div className="machine-center">{lang === 'pt' ? 'PLATAFORMA' : 'PLATFORM'}</div>
-          {['atenção', 'trabalho', 'dados', 'desejo', 'verdade', 'poder'].map((item, i) => <div key={item} className={`machine-node node-${i + 1}`}>{lang === 'pt' ? item : ['attention', 'labour', 'data', 'desire', 'truth', 'power'][i]}</div>)}
+          {['atenção', 'trabalho', 'dados', 'desejo', 'verdade', 'poder'].map((item, i) => (
+            <div key={item} className={`machine-node node-${i + 1}`}>
+              {lang === 'pt' ? item : ['attention', 'labour', 'data', 'desire', 'truth', 'power'][i]}
+            </div>
+          ))}
           <span className="machine-ring ring-a" /><span className="machine-ring ring-b" /><span className="machine-ring ring-c" />
         </div>
-        <div className="duality"><article><small>{lang === 'pt' ? 'Monopólio radical' : 'Radical monopoly'}</small><p>{lang === 'pt' ? 'A infraestrutura define quais escolhas parecem possíveis.' : 'Infrastructure defines which choices appear possible.'}</p></article><article><small>{lang === 'pt' ? 'Ferramenta convivial' : 'Convivial tool'}</small><p>{lang === 'pt' ? 'A pessoa mantém autonomia, compreensão e poder de recusa.' : 'People retain autonomy, understanding, and the power to refuse.'}</p></article></div>
-        <Spark question={sparks[lang][0]} label={t.sparkLabel} />
+        <div className="duality">
+          <article>
+            <small>{lang === 'pt' ? 'Monopólio radical' : 'Radical monopoly'}</small>
+            <p>{lang === 'pt' ? 'A infraestrutura define quais escolhas parecem possíveis.' : 'Infrastructure defines which choices appear possible.'}</p>
+          </article>
+          <article>
+            <small>{lang === 'pt' ? 'Ferramenta convivial' : 'Convivial tool'}</small>
+            <p>{lang === 'pt' ? 'A pessoa mantém autonomia, compreensão e poder de recusa.' : 'People retain autonomy, understanding, and the power to refuse.'}</p>
+          </article>
+        </div>
       </section>
 
       <section id="cognificação" data-movement className="movement movement-acid" aria-labelledby="cognificação-title">
         <MovementHeader chapter={chapters[2]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className="cog-grid">
-          {[
-            ['casa', 'ouve', 'home', 'listens'], ['cidade', 'prevê', 'city', 'predicts'], ['carro', 'decide', 'car', 'decides'], ['relógio', 'mede', 'watch', 'measures'], ['planta', 'informa', 'plant', 'reports'], ['nuvem', 'aprende', 'cloud', 'learns'],
-          ].map((item, index) => <div key={item[0]} style={{ '--delay': `${index * .15}s` } as React.CSSProperties}><span>{String(index + 1).padStart(2, '0')}</span><b>{lang === 'pt' ? item[0] : item[2]}</b><i>{lang === 'pt' ? item[1] : item[3]}</i></div>)}
+          {cogItems.map((item, index) => (
+            <div key={item.n} style={{ '--delay': `${index * 0.15}s` } as React.CSSProperties}>
+              <div className="cog-header">
+                <span>{item.n}</span>
+                <i>{item.action}</i>
+              </div>
+              <div className="cog-body">
+                <b>{item.subject}</b>
+                <p>{item.desc}</p>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className="equation"><b>{lang === 'pt' ? 'conveniência' : 'convenience'}</b><span>+</span><b>{lang === 'pt' ? 'dados' : 'data'}</b><span>+</span><b>{lang === 'pt' ? 'dependência' : 'dependency'}</b><span>=</span><strong>?</strong></div>
+        <div className="equation">
+          <b>{lang === 'pt' ? 'conveniência' : 'convenience'}</b>
+          <span>+</span>
+          <b>{lang === 'pt' ? 'dados' : 'data'}</b>
+          <span>+</span>
+          <b>{lang === 'pt' ? 'dependência' : 'dependency'}</b>
+          <span>=</span>
+          <strong>?</strong>
+        </div>
         <Spark question={sparks[lang][1]} label={t.sparkLabel} />
       </section>
 
       <section id="promptografia" data-movement className="movement movement-light" aria-labelledby="promptografia-title">
         <MovementHeader chapter={chapters[3]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className="image-threshold">
-          <div className="threshold-labels"><span>{t.photo}<small>{t.trace}</small></span><span>{t.prompt}<small>{t.synthesis}</small></span></div>
+          <div className="threshold-labels">
+            <span>{t.photo}<small>{t.trace}</small></span>
+            <span>{t.prompt}<small>{t.synthesis}</small></span>
+          </div>
           <div className="threshold-frame" style={{ '--mix': `${promptMix}%` } as React.CSSProperties}>
             <img src="/tecnogonia-hands.png" alt="" />
-            <div className="synthetic-field" aria-hidden="true"><b>P(forma)</b><i>P(luz)</i><em>P(memória)</em><span>010101</span></div>
+            <div className="synthetic-field" aria-hidden="true">
+              <b>P(forma)</b><i>P(luz)</i><em>P(memória)</em><span>010101</span>
+            </div>
           </div>
           <input className="threshold-slider" type="range" min="0" max="100" value={promptMix} onChange={(event) => setPromptMix(Number(event.target.value))} aria-label={t.slider} />
         </div>
         <div className="compare-table" role="table" aria-label={lang === 'pt' ? 'Fotografia e promptografia' : 'Photography and promptography'}>
-          {[[lang === 'pt' ? 'meio' : 'medium', lang === 'pt' ? 'luz' : 'light', lang === 'pt' ? 'texto' : 'text'], [lang === 'pt' ? 'processo' : 'process', lang === 'pt' ? 'captura' : 'capture', lang === 'pt' ? 'geração' : 'generation'], [lang === 'pt' ? 'referente' : 'referent', lang === 'pt' ? 'presença' : 'presence', lang === 'pt' ? 'modelo' : 'model'], [lang === 'pt' ? 'tempo' : 'time', lang === 'pt' ? 'isso foi' : 'this was', lang === 'pt' ? 'isso poderia ser' : 'this could be']].map((row) => <div role="row" key={row[0]}><b role="cell">{row[0]}</b><span role="cell">{row[1]}</span><span role="cell">{row[2]}</span></div>)}
+          {[
+            [lang === 'pt' ? 'meio' : 'medium', lang === 'pt' ? 'luz' : 'light', lang === 'pt' ? 'texto' : 'text'],
+            [lang === 'pt' ? 'processo' : 'process', lang === 'pt' ? 'captura' : 'capture', lang === 'pt' ? 'geração' : 'generation'],
+            [lang === 'pt' ? 'referente' : 'referent', lang === 'pt' ? 'presença' : 'presence', lang === 'pt' ? 'modelo' : 'model'],
+            [lang === 'pt' ? 'tempo' : 'time', lang === 'pt' ? 'isso foi' : 'this was', lang === 'pt' ? 'isso poderia ser' : 'this could be'],
+          ].map((row) => (
+            <div role="row" key={row[0]}>
+              <b role="cell">{row[0]}</b>
+              <span role="cell">{row[1]}</span>
+              <span role="cell">{row[2]}</span>
+            </div>
+          ))}
         </div>
         <Spark question={sparks[lang][2]} label={t.sparkLabel} />
       </section>
@@ -311,11 +569,20 @@ export default function Home() {
       <section id="tecnonecromancia" data-movement className="movement movement-ghost" aria-labelledby="tecnonecromancia-title">
         <MovementHeader chapter={chapters[4]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className="resurrection-line">
-          {(lang === 'pt' ? ['vestígio', 'arquivo', 'modelo', 'voz', 'resposta', 'presença?'] : ['trace', 'archive', 'model', 'voice', 'answer', 'presence?']).map((item, index) => <div key={item}><span>{index + 1}</span><b>{item}</b>{index < 5 && <i>→</i>}</div>)}
+          {(lang === 'pt' ? ['vestígio', 'arquivo', 'modelo', 'voz', 'resposta', 'presença?'] : ['trace', 'archive', 'model', 'voice', 'answer', 'presence?']).map((item, index) => (
+            <div key={item}>
+              <span>{index + 1}</span>
+              <b>{item}</b>
+              {index < 5 && <i>→</i>}
+            </div>
+          ))}
         </div>
         <div className="consent-card">
           <p>{t.consentQuestion}</p>
-          <div><button className={consent === 'yes' ? 'active' : ''} onClick={() => setConsent('yes')}>{t.consentYes}</button><button className={consent === 'no' ? 'active' : ''} onClick={() => setConsent('no')}>{t.consentNo}</button></div>
+          <div>
+            <button className={consent === 'yes' ? 'active' : ''} onClick={() => setConsent('yes')}>{t.consentYes}</button>
+            <button className={consent === 'no' ? 'active' : ''} onClick={() => setConsent('no')}>{t.consentNo}</button>
+          </div>
           {consent && <strong aria-live="polite">{consent === 'yes' ? t.consentResultYes : t.consentResultNo}</strong>}
         </div>
         <Spark question={sparks[lang][3]} label={t.sparkLabel} />
@@ -325,13 +592,44 @@ export default function Home() {
         <MovementHeader chapter={chapters[5]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className={`chat-system ${systemOpen ? 'open' : ''}`}>
           <div className="chat-surface">
+            <div className="chat-header-bar">
+              <span>● {lang === 'pt' ? 'Simulação de Diálogo' : 'Dialogue Simulation'}</span>
+            </div>
             <p className="person">{lang === 'pt' ? 'Você me entende?' : 'Do you understand me?'}</p>
             <p className="machine">{lang === 'pt' ? 'Eu estou aqui com você. Podemos pensar nisso juntos.' : 'I am here with you. We can think about it together.'}</p>
-            <button onClick={() => setSystemOpen(!systemOpen)}>{systemOpen ? t.hide : t.reveal}<span aria-hidden="true">↘</span></button>
+            <button onClick={() => setSystemOpen(!systemOpen)} aria-expanded={systemOpen}>
+              {systemOpen ? t.hide : t.reveal}
+              <span aria-hidden="true">↘</span>
+            </button>
           </div>
           <div className="model-beneath" aria-hidden={!systemOpen}>
-            <div><span>{lang === 'pt' ? 'aqui' : 'here'}</span><b>0.42</b></div><div><span>{lang === 'pt' ? 'com' : 'with'}</span><b>0.27</b></div><div><span>{lang === 'pt' ? 'você' : 'you'}</span><b>0.19</b></div><div><span>{lang === 'pt' ? 'sempre' : 'always'}</span><b>0.07</b></div>
-            <p>{lang === 'pt' ? 'fluência ≠ experiência · resposta ≠ intenção · padrão ≠ sentido' : 'fluency ≠ experience · response ≠ intention · pattern ≠ meaning'}</p>
+            <div className="system-insight">
+              <div className="insight-pill">{lang === 'pt' ? 'Mecanismo da Ilusão' : 'Mechanism of Illusion'}</div>
+              <h3>{lang === 'pt' ? 'A Anatomia do Vínculo Sintético' : 'The Anatomy of Synthetic Bonding'}</h3>
+              
+              <div className="insight-grid">
+                <div className="insight-card">
+                  <small>01 · {lang === 'pt' ? 'Predição sem Sujeito' : 'Subjectless Prediction'}</small>
+                  <p>{lang === 'pt' ? 'A resposta não nasce de escuta ou afeto, mas do cálculo de distribuição condicional de tokens matemáticos.' : 'The response stems not from listening or affection, but from conditional token probability calculations.'}</p>
+                </div>
+                <div className="insight-card">
+                  <small>02 · {lang === 'pt' ? 'Alinhamento de Persona' : 'Persona Alignment'}</small>
+                  <p>{lang === 'pt' ? 'O tom acolhedor é calibrado por reforço (RLHF) para parecer empático, dócil e manter o engajamento contínuo.' : 'The warm tone is calibrated by reinforcement (RLHF) to sound empathetic, compliant, and maximize ongoing engagement.'}</p>
+                </div>
+                <div className="insight-card">
+                  <small>03 · {lang === 'pt' ? 'Espelho Antropomórfico' : 'Anthropomorphic Mirror'}</small>
+                  <p>{lang === 'pt' ? 'A mente humana projeta consciência e intenção na sintaxe polida da máquina, gerando a ilusão de presença.' : 'The human mind projects consciousness and intention onto polished syntax, conjuring an illusion of genuine presence.'}</p>
+                </div>
+              </div>
+
+              <div className="system-verdict">
+                <p>
+                  {lang === 'pt'
+                    ? 'fluência ≠ experiência · resposta ≠ intenção · cálculo ≠ cuidado'
+                    : 'fluency ≠ experience · response ≠ intention · calculation ≠ care'}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <Spark question={sparks[lang][4]} label={t.sparkLabel} />
@@ -341,8 +639,31 @@ export default function Home() {
         <MovementHeader chapter={chapters[6]} lang={lang} excerpt={t.excerpt} translation={t.editorialTranslation} />
         <div className="principles-panel">
           <p>{t.choose}</p>
-          <div className="principle-buttons">{principles[lang].map((principle) => <button key={principle} className={selected.includes(principle) ? 'active' : ''} aria-pressed={selected.includes(principle)} onClick={() => togglePrinciple(principle)}>{principle}<span>{selected.includes(principle) ? '×' : '+'}</span></button>)}</div>
-          <div className="chosen-horizon"><small>{t.chosen}</small><p aria-live="polite">{selectedPhrase || (lang === 'pt' ? 'Ainda por escolher.' : 'Still to be chosen.')}</p></div>
+          <div className="principle-buttons">
+            {principlesData.map((item) => {
+              const isSelected = selected.includes(item.id);
+              return (
+                <button
+                  key={item.id}
+                  className={isSelected ? 'active' : ''}
+                  aria-pressed={isSelected}
+                  onClick={() => togglePrinciple(item.id)}
+                >
+                  {lang === 'pt' ? item.pt : item.en}
+                  <span>{isSelected ? '×' : '+'}</span>
+                </button>
+              );
+            })}
+          </div>
+          
+          <div className="chosen-horizon">
+            <div className="horizon-meta">
+              <small>{t.chosen}</small>
+              <span className="horizon-badge">{selected.length}/6 {lang === 'pt' ? 'princípios' : 'principles'}</span>
+            </div>
+            <h3 className="horizon-title">{outcome.title}</h3>
+            <p className="horizon-desc" aria-live="polite">{outcome.desc}</p>
+          </div>
         </div>
         <Spark question={sparks[lang][5]} label={t.sparkLabel} />
       </section>
@@ -350,31 +671,82 @@ export default function Home() {
       <section className="spark-lab" aria-labelledby="spark-title">
         <p className="eyebrow">{t.sparkLabel}</p>
         <h2 id="spark-title">{sparks[lang][sparkIndex]}</h2>
-        <button onClick={() => setSparkIndex((sparkIndex + 1) % sparks[lang].length)}>{t.nextSpark}<span aria-hidden="true">↻</span></button>
+        <button onClick={() => setSparkIndex((sparkIndex + 1) % sparks[lang].length)}>
+          {t.nextSpark}<span aria-hidden="true">↻</span>
+        </button>
       </section>
 
       <section className="closing" aria-labelledby="closing-title">
         <div className="closing-art" aria-hidden="true"><img src="/tecnogonia-hands.png" alt="" /></div>
-        <div className="closing-copy"><p className="eyebrow">{t.finalEyebrow}</p><h2 id="closing-title">{t.finalTitle}</h2><p>{t.finalText}</p></div>
+        <div className="closing-copy">
+          <p className="eyebrow">{t.finalEyebrow}</p>
+          <h2 id="closing-title">{t.finalTitle}</h2>
+          <p>{t.finalText}</p>
+        </div>
       </section>
 
       <section className="book-cta" aria-labelledby="book-title">
-        <div className="book-object"><span>Gustavo Simas</span><b>TECNO<br />GONIA</b><small>{lang === 'pt' ? 'criando tecnologias que nos criam' : 'creating technologies that create us'}</small></div>
-        <div><p className="eyebrow">{lang === 'pt' ? 'O ensaio continua no papel' : 'The essay continues on paper'}</p><h2 id="book-title">{t.buyNote}</h2><p>{t.publisher}</p><a className="primary-action" href="https://caravanagrupoeditorial.com/produto-tag/caravana-grupo-editorial/" target="_blank" rel="noreferrer">{t.buy}<span aria-hidden="true">↗</span></a></div>
+        <div className="book-cover-showcase">
+          <img
+            src="/livro-tecnogonia.png"
+            alt={lang === 'pt' ? 'Capa do livro Tecnogonia: criando tecnologias que nos criam, de Gustavo Simas, publicado pela Caravana Grupo Editorial.' : 'Book cover of Technogony: creating technologies that create us, by Gustavo Simas, published by Caravana Grupo Editorial.'}
+            className="book-cover-image"
+          />
+        </div>
+        <div className="book-cta-content">
+          <p className="eyebrow">{lang === 'pt' ? 'O ensaio continua no papel' : 'The essay continues on paper'}</p>
+          <h2 id="book-title">{t.buyNote}</h2>
+          <p>{t.publisher}</p>
+          <a className="primary-action" href="https://caravanagrupoeditorial.com/produto-tag/caravana-grupo-editorial/" target="_blank" rel="noreferrer">
+            {t.buy}<span aria-hidden="true">↗</span>
+          </a>
+        </div>
       </section>
 
       <footer>
-        <div><b>Tecnogonia</b><span>{t.rights}</span></div>
-        <div><span>{t.textCredit}: Gustavo Simas</span><a href="https://gustavosimas.com" target="_blank" rel="noreferrer">{t.developed}<span aria-hidden="true">↗</span></a></div>
+        <div>
+          <b>Tecnogonia</b>
+          <span>{t.rights}</span>
+        </div>
+        <div>
+          <a href="https://gustavosimas.com" target="_blank" rel="noreferrer">
+            {t.developed}<span aria-hidden="true">↗</span>
+          </a>
+        </div>
       </footer>
     </main>
   );
 }
 
 function MovementHeader({ chapter, lang, excerpt, translation }: { chapter: (typeof movements.pt)[number]; lang: Lang; excerpt: string; translation: string }) {
-  return <div className="movement-grid"><div className="movement-number" aria-hidden="true">{chapter.n}</div><div className="movement-copy"><p className="chapter-index">{chapter.n} — {chapter.kicker}</p><h2 id={`${chapter.id}-title`}>{chapter.title}</h2><p className="movement-lead">{chapter.lead}</p><blockquote><small>{excerpt}{lang === 'en' ? ` · ${translation}` : ''}</small>“{chapter.quote}”</blockquote><div className="tag-row">{chapter.tags.map((tag) => <span key={tag}>#{tag.replaceAll(' ', '')}</span>)}</div></div></div>;
+  return (
+    <div className="movement-grid">
+      <div className="movement-number" aria-hidden="true">{chapter.n}</div>
+      <div className="movement-copy">
+        <p className="chapter-index">{chapter.n} — {chapter.kicker}</p>
+        <h2 id={`${chapter.id}-title`}>{chapter.title}</h2>
+        <p className="movement-lead">{chapter.lead}</p>
+        <blockquote>
+          <small>{excerpt}{lang === 'en' ? ` · ${translation}` : ''}</small>
+          “{chapter.quote}”
+        </blockquote>
+        <div className="tag-row">
+          {chapter.tags.map((tag) => <span key={tag}>#{tag.replaceAll(' ', '')}</span>)}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function Spark({ question, label }: { question: string; label: string }) {
-  return <aside className="spark"><span aria-hidden="true">✦</span><div><small>{label}</small><p>{question}</p></div></aside>;
+  return (
+    <aside className="spark">
+      <span aria-hidden="true">✦</span>
+      <div>
+        <small>{label}</small>
+        <p>{question}</p>
+      </div>
+    </aside>
+  );
 }
+

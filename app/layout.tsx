@@ -9,12 +9,12 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'Tecnogonia — criando tecnologias que nos criam',
-  description: 'Um ensaio audiovisual bilíngue a partir do livro Tecnogonia, de Gustavo Simas.',
+  description: 'Uma obra sobre Ciência, Tecnologia e Sociedade a partir do livro Tecnogonia, de Gustavo Simas.',
   authors: [{ name: 'Gustavo Simas', url: 'https://gustavosimas.com' }],
-  keywords: ['Tecnogonia', 'tecnologia', 'inteligência artificial', 'filosofia da tecnologia', 'Gustavo Simas'],
+  keywords: ['Tecnogonia', 'Ciência Tecnologia e Sociedade', 'CTS', 'tecnologia', 'inteligência artificial', 'filosofia da tecnologia', 'Gustavo Simas'],
   openGraph: {
     title: 'Tecnogonia — criando tecnologias que nos criam',
-    description: 'Um ensaio audiovisual bilíngue sobre as tecnologias que criamos — e que nos criam.',
+    description: 'Uma obra sobre Ciência, Tecnologia e Sociedade a partir do livro Tecnogonia, de Gustavo Simas.',
     type: 'website',
     locale: 'pt_BR',
     alternateLocale: ['en'],
@@ -24,8 +24,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tecnogonia — criando tecnologias que nos criam',
-    description: 'Um ensaio audiovisual bilíngue de Gustavo Simas.',
+    description: 'Uma obra sobre Ciência, Tecnologia e Sociedade a partir do livro Tecnogonia, de Gustavo Simas.',
     images: ['/og.png'],
+  },
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
   },
   alternates: { canonical: '/' },
 };
